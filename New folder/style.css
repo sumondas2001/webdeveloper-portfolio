@@ -1,0 +1,42 @@
+/* copy link */
+font-family: 'Open Sans', sans-serif;
+
+.portfolio header{
+    color: #181818;
+    
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.text-primer{
+    color: #FD6E0A;
+}
+
+
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav{
+    color: #474747;
+}
+.but-primer{
+    background: #FD6E0A;
+    font-size: 20px;
+    border-radius: 5px; 
+    font-weight: 700;   
+    color: white;
+    border: 0px;
+    padding: 15px 35px;
+}

@@ -44,11 +44,23 @@ nav{
 .header{
     background-color: #FFF8F3;
     
+    
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+
+.banner-content{
+   max-width: 500px;
+   
+}
+
+   
     
 }
 .contact-button{
@@ -59,10 +71,52 @@ nav{
     color:#FD6E0A;
     border: 1px solid;
     padding: 15px 35px;
+
    
 }
 .banner-portfolio-img{
     width: 500px;
     height: 580px;
+    
 
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    width: 600px;
+    margin-bottom: 0px;
+}
+.banner-title{
+   
+    font-size: 85px;
+    color: #181818;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+   
+}
+.banner-des{
+    width: 585px;
+    margin-bottom: 30px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.section-descriptions{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-me{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    border: 130px 200px;
+    margin: 130px 200px;
 }

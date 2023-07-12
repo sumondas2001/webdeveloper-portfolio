@@ -60,6 +60,13 @@ nav{
    
 }
 
+ /* about section */
+ main{
+        max-width: 1140px;
+    
+
+ }
+
    
     
 }
@@ -119,4 +126,17 @@ nav{
     background: #FFF8F3;
     border: 130px 200px;
     margin: 130px 200px;
+}
+
+  
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+   
 }
